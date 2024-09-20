@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Josef Sans', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .ad-container {
+            width: 90%;
+            max-width: 300px;
+            margin: 50px auto;
+            border: 2px solid #ddd;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .app-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .content-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .ad-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .app-description {
+            font-size: 12px;
+            color: #555;
+            line-height: 1.4;
+            flex: 1;
+            margin-left: 15px;
+            text-align: left;
+        }
+        .install-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            max-width: 150px;
+            margin-top: 15px;
+        }
+        .install-button:hover {
+            background-color: #45a049;
+        }
+        @media (min-width: 600px) {
+            .ad-container {
+                width: 80%;
+                max-width: 300px;
+            }
+            .app-title {
+                font-size: 24px;
+            }
+            .ad-image {
+                width: 100px;
+                height: 100px;
+            }
+            .app-description {
+                font-size: 14px;
+            }
+            .install-button {
+                font-size: 16px;
+                max-width: none;
+            }
+        }
+    </style>
+    <title>The Messages - Secure SMS App</title>
+</head>
+<body>
+    <div class="ad-container">
+        <h1 class="app-title">The Messages - Secure SMS App</h1>
+        <div class="content-wrapper">
+            <img class="ad-image" src="https://play-lh.googleusercontent.com/XrN8eB4NyjVB0XOKY7xqGfoVLkKV55ON9fx_XYZuq3EDxHxseULpFzpjTh8yB8dOn9WK=w480-h960" alt="App Logo">
+            <p class="app-description">
+                RELIABLE SMS BACKUP, FAST AND LIGHTWEIGHT<br>
+                STAY CONNECTED EFFORTLESSLY
+            </p>
+        </div>
+        <a href="https://play.google.com/store/apps/details?id=org.fossify.haider.the.messeges" class="install-button">Install Now</a>
+    </div>
+</body>
+</html>
